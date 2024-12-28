@@ -1,6 +1,6 @@
 
 
-
+import Nav from "../components/Nav";
 import Contentbar from "../components/Content";
 import Container2 from "../components/Container2";
 import Container3 from "../components/Container3";
@@ -16,7 +16,7 @@ import Container11 from "../components/Container11";
 export default function Home() {
   return (
     <div>
-   
+   <Nav/>
       <Contentbar/>
       <Container2/>
       <Container3/>
